@@ -1,0 +1,22 @@
+{
+  "name": "ashvxmc.github.io",
+  "version": "1.0.0",
+  "description": "Heavily a work in progress\r Website hosted on [ashvxmc.github.io](https://ashvxmc.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshVXmc/ashvxmc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshVXmc/ashvxmc.github.io/issues"
+  },
+  "homepage": "https://github.com/AshVXmc/ashvxmc.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
