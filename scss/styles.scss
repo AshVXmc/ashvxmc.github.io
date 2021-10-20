@@ -1,11 +1,18 @@
-$Testvariable: rgb(0, 40, 218);
-h3.writing1 {
-    font-family: Arial, Helvetica, sans-serif;
+$DateBlue: rgb(0, 40, 218);
+h3 {
+    .writing1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .link {
+        text-align: center; 
+        color: crimson; 
+        font-family:sans-serif
+    }    
 }
 
 h2.datetitle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: $Testvariable;
+    color: $DateBlue;
 }
 
 .centerIMG {
