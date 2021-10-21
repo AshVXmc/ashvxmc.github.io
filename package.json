@@ -4,8 +4,7 @@
   "description": "Heavily a work in progress\r Website hosted on [ashvxmc.github.io](https://ashvxmc.github.io/)",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive",
-    "scss": "sass --watch input.scss output.css"
+    "sass": "sass --watch scss/styles.scss:css/styles.css"
   },
   "repository": {
     "type": "git",
