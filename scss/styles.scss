@@ -1,20 +1,23 @@
-$defaultpadding: 280px;
+$defaultpadding: 300px;
 $defaultmargin: -25px;
 
+@mixin default_text {
+  padding-left: $defaultpadding;
+  position: inherit; 
+  margin-top: $defaultmargin;
+}
+
 .title {
-    padding-left: defaultpadding;
+    @include default_text();
     font-family:'Bebas Neue';
-    letter-spacing: 5px;
-    position: inherit; 
-    margin-top: defaultmargin;
   }
   
   .paragraph {
-    padding-left: defaultpadding;
+    @include default_text();
     font-family: Arial, Helvetica, sans-serif;
-    position: inherit; 
-    margin-top: defaultmargin;
     color: white;
+    margin-top: -28px; 
+    font-size: 22px;
   }
   
   h2.datetitle {

@@ -1,17 +1,18 @@
 .title {
-  padding-left: defaultpadding;
-  font-family: "Bebas Neue";
-  letter-spacing: 5px;
+  padding-left: 300px;
   position: inherit;
-  margin-top: defaultmargin;
+  margin-top: -25px;
+  font-family: "Bebas Neue";
 }
 
 .paragraph {
-  padding-left: defaultpadding;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 300px;
   position: inherit;
-  margin-top: defaultmargin;
+  margin-top: -25px;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  margin-top: -28px;
+  font-size: 22px;
 }
 
 h2.datetitle {
