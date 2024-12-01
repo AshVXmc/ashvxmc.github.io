@@ -1,2 +1,2 @@
-console.log("Website worked!");
+console.log("Test");
 
